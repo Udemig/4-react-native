@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- svg > vector -->
+    <svg width="100" height="100">
+      <circle cx="50" cy="50" r="40" stroke-width="4" fill="orange" />
+      <rect width="100" height="40" />
+      <rect width="40" height="40" fill="red" />
+      <polygon />
+    </svg>
+
+    <!--  -->
+    <video width="100%" controls autoplay muted>
+      <source src="images/video.mp4" />
+      <source src="images/video4.mp4" />
+    </video>
+
+    <audio controls autoplay>
+      <source src="images/ses.mp3" />
+    </audio>
+
+    <form>
+      <svg width="40" class="svg-icon" viewBox="0 0 20 20">
+        <path
+          d="M17.114,3.923h-4.589V2.427c0-0.252-0.207-0.459-0.46-0.459H7.935c-0.252,0-0.459,0.207-0.459,0.459v1.496h-4.59c-0.252,0-0.459,0.205-0.459,0.459c0,0.252,0.207,0.459,0.459,0.459h1.51v12.732c0,0.252,0.207,0.459,0.459,0.459h10.29c0.254,0,0.459-0.207,0.459-0.459V4.841h1.511c0.252,0,0.459-0.207,0.459-0.459C17.573,4.127,17.366,3.923,17.114,3.923M8.394,2.886h3.214v0.918H8.394V2.886z M14.686,17.114H5.314V4.841h9.372V17.114z M12.525,7.306v7.344c0,0.252-0.207,0.459-0.46,0.459s-0.458-0.207-0.458-0.459V7.306c0-0.254,0.205-0.459,0.458-0.459S12.525,7.051,12.525,7.306M8.394,7.306v7.344c0,0.252-0.207,0.459-0.459,0.459s-0.459-0.207-0.459-0.459V7.306c0-0.254,0.207-0.459,0.459-0.459S8.394,7.051,8.394,7.306"
+        ></path>
+      </svg>
+
+      <fieldset>
+        <legend>Kulalnıcı adı giriniz</legend>
+        <input type="text" required autofocus />
+      </fieldset>
+
+      <fieldset>
+        <legend>Mailiniz doldurun</legend>
+        <input
+          type="email"
+          required
+          placeholder="ex:example@gmail.com"
+        />
+      </fieldset>
+
+      <label>Doğum Tarih</label>
+      <input type="date" />
+
+      <div id="termss">
+        <input id="terms" type="checkbox" />
+        <label for="terms">Koşulları okdunuz mu ? </label>
+      </div>
+
+      <div>
+        <label>Hediye Ürünü:</label>
+        <input name="gift" id="a" type="radio" />
+        <label for="a">Kurabiye</label>
+        <input name="gift" id="b" type="radio" />
+        <label for="b">Kola</label>
+        <input name="gift" id="c" type="radio" />
+        <label for="c">Sos</label>
+      </div>
+
+      <label>Şifre</label>
+      <input type="password" />
+
+      <label>Yaşınız</label>
+      <input type="number" />
+
+      <select>
+        <option selected hidden>Seçiniz</option>
+        <option>KrediKartı1</option>
+        <option>Akbank</option>
+        <option>Mobil ödeme</option>
+      </select>
+
+      <label>Açıklama</label>
+      <textarea name="" cols="30" rows="10"></textarea>
+
+      <label>Fotoğraf</label>
+      <input type="file" />
+
+      <label>Renk</label>
+      <input type="color" />
+
+      <label>gitub link</label>
+      <input type="url" />
+
+      <label>telefon</label>
+      <input type="tel" />
+
+      <label>arama</label>
+      <input type="search" />
+
+      <input type="" />
+
+      <button>Gönder</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+header {
+  padding: 20px;
+  background: gray;
+}
+
+/*
+* belirli sınıftaki elemanlar
+* bir sınıfa birden fazla eleman ekleyebiliyoruz
+*/
+
+.top-li {
+  color: red;
+}
+
+/* 
+* belirli id'deki elemanı çağırma
+* aynı id'ye sahip her zman tek 1 eleman olabilir
+*/
+#li-1 {
+  color: yellow;
+}
+
+#li-2 {
+  color: orange;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 60px;
+  /* 
+   * border > çerçeve
+   * kalınlık 
+   * türü
+   * renk
+   */
+  border: 3px dotted red;
+  border: 3px dashed red;
+  border: 10px ridge red;
+  border: 10px groove red;
+  border: 10px double red;
+  border: 10px inset red;
+  border: 10px outset red;
+}
+
+form input {
+  margin-bottom: 10px;
+}
+
+#termss {
+  /* üst köşe */
+  border-top: 3px double green;
+
+  /* alt köşe */
+  border-bottom: 4px solid pink;
+
+  /* sağ köşe */
+  border-right: 2px ridge;
+
+  /* sol köşe */
+  border-left: 2px ridge;
+}

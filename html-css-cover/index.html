@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Selam</title>
+    <meta
+      name="description"
+      content="Bu web sitesi native tarafıdan bloglar içeri..."
+    />
+    <!-- css dosyasına html ile bağlarız -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header > üst alanı temisl eder  -->
+    <header>
+      <img width="60" height="60" src="/images/mancity.png" />
+
+      <!-- nav > kullanıcyı yönledirme alanı -->
+      <nav>
+        <!-- a > yönlendirme etiketleri -->
+        <a href="https://udemig.com/" target="_blank">Son Maçlar</a>
+        <a href="oyucular.html" target="_blank">Kurucu</a>
+        <a href="oyucular.html" target="_blank">Oyuncular</a>
+      </nav>
+    </header>
+
+    <!-- yan içerik -->
+    <aside>
+      <!-- liste -->
+      <ul>
+        <!-- liste elemanı -->
+        <li>En son Oynanan Maçlar</li>
+        <li class="top-li">ManCity vs Barc</li>
+        <li class="top-li">Gs vs ManCity</li>
+      </ul>
+      <!-- liste -->
+      <ol>
+        <!-- liste elemanı -->
+        <li>En son Oynanan Maçlar</li>
+        <li>ManCity vs Barc</li>
+        <li>
+          <ul>
+            <li id="li-1">Gs vs ManCity 1-2</li>
+            <li id="li-2">Gs vs ManCity 2-1</li>
+          </ul>
+        </li>
+      </ol>
+    </aside>
+
+    <!-- table > tablo tanımlar -->
+    <table border="1" style="width: 100%">
+      <!-- tr > tablo satırı -->
+      <tr>
+        <!-- th > tablo başlığı -->
+        <th>id</th>
+        <th>İsim</th>
+        <th>Şirket</th>
+        <th>İleitişm</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <!-- td > tablo hücresi  -->
+        <td>1</td>
+        <td>Ali</td>
+        <td>Arabulet</td>
+        <td>90-433-12-12</td>
+        <td>Tr</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Ayşe</td>
+        <td>Udemig</td>
+        <td>90-133-12-12</td>
+        <td>Fr</td>
+      </tr>
+    </table>
+
+    <!-- block elements -->
+    <p style="background: red">ali</p>
+    <div style="background: red">ali</div>
+    <h1 style="background: red">ali</h1>
+    <address style="border: 1px solid red">
+      7090sk, no:77, İSATANBUL
+    </address>
+    <!-- form > header > footer > nav > ul > section > main > figure > .... -->
+    <!-- inline elements -->
+    <a href="/asd" style="border: 1px solid">Selam</a>
+    <b style="border: 1px solid">Selam</b>
+    <button>Selam</button>
+    <code> DROP TABLE MUsteriler </code>
+    <img src="/images/mancity.png" width="20" />
+    <span>Selam</span>
+    <small>küçük yazı</small>
+    <em>selam</em>
+    <i>italik</i>
+
+    <!-- iframe eriketi farklı web sayfalında içerikler almaya yarar -->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5714.983654333524!2d27.550252754671863!3d38.646197458422165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b9a286258485f3%3A0x6de6fc932574f69d!2zw4dhdnXFn2_En2x1IMSwbGtva3VsdQ!5e0!3m2!1str!2str!4v1697379159013!5m2!1str!2str"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <iframe src="https://udemig.com/index.php" width="1000" height="500">
+  </body>
+</html>
